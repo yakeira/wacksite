@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+
+ @import url('https://fonts.cdnfonts.com/css/blackangels');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #ffffff;
+}
+h2 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+	color: black;
+}
+h3 {
+	font-family: 'BlackAngels';
+	font-size: 40px;
+	color: black;
+}
+p {
+	font-family: 'Arapey', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+header {
+	background-color: #fc6acf;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+nav {
+	float: left;
+	width: 30%;
+	height: auto;
+	background: #fc8fdd;
+	padding: 20px;
+	font-family: 'Arapey', sans-serif;
+	font-size: 20px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #fcc6ec;
+	height: auto;
+}
+section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+footer {
+	background-color: #fc6acf;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+@media (max-width: 600px) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+}
